@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([1,2,3,4,5,6,7,8,4,4,4,4,4,4,4,4,44,4,])
+x=np.where(arr==4)
+print(x)
+y=np.where(arr %2==0)
+print(y)
+z=np.where(arr*2==4)
+print(z)
+p=np.where(arr %2==1)
+print("\n",p)
