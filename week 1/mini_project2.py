@@ -23,3 +23,5 @@ plt.figure(figsize=(6, 6))
 plt.pie(embark_counts, labels=embark_counts.index, autopct='%1.1f%%', colors=['lightblue', 'lightgreen', 'lightcoral'])
 plt.title("Passenger Count by Embarkation Port")
 plt.show()
+
+# Task 4
